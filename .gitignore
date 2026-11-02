@@ -17,17 +17,11 @@
 !*.ans
 !*.md
 !*.txt
-!*.svg
-!*.ttf
 
 # 4.	Ignore specific package-related directories
 #		of Visual Studio MAUI creation
 /bin
 /obj
-/Platforms
-
-#		I don't really know if you should ignore Resources, so no
-#/Resources
 
 # 5.	Un-ignore this file itself so it can be committed
 !/.gitignore
