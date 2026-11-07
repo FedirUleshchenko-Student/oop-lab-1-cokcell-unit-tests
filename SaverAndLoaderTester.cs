@@ -60,42 +60,5 @@ namespace oop_lab_1_cokcell_unit_tests
 
             UsefulFuncs.CompareToAnswers(expressions, answers);
         }
-
-        // no credentials
-
-        //[Fact]
-        //public void ExternalEditAndSave()
-        //{
-        //    Dictionary<CellId, string> data = new Dictionary<CellId, string> {
-        //        { new CellId("A1"), "3 + 5" },
-        //        { new CellId("A2"), "3+++4" },
-        //        { new CellId("A3"), "12/3" },
-        //        { new CellId("A4"), "3 + abs(45)" },
-        //        { new CellId("A5"), "nigger" },
-        //    };
-        //    List<BigInteger?> answers = new List<BigInteger?> { 8, 7, 4, 48, null };
-
-        //    UsefulFuncs.SetCellsInTable(table, data);
-
-        //    string fileName = "Unit_CokCell_Table.json";
-
-
-        //    GoogleDriveManager.SaveTable(table, fileName);
-        //    // Not working
-        //    //Debug.Print($"Cache table location : '{filePath}'");
-        //    // So:
-        //    _output.WriteLine($"Saved on Google Drive with name : '{fileName}'");
-
-        //    UsefulFuncs.ResetTable(table);
-        //    table = GoogleDriveManager.LoadTable(fileName);
-
-        //    var it = table.GetEnummeratorCells;
-        //    while (it.MoveNext())
-        //    {
-        //        expressions.Add(it.Current.Value.parsedExpression);
-        //    }
-
-        //    UsefulFuncs.CompareToAnswers(expressions, answers);
-        //}
     }
 }
